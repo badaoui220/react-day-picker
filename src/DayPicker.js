@@ -568,6 +568,7 @@ export class DayPicker extends Component {
     if (this.props.className) {
       className = `${className} ${this.props.className}`;
     }
+    console.log('3', this.props.numberOfMonths, this.props.fromMonth);
     return (
       <div
         {...this.props.containerProps}
