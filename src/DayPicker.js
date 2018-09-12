@@ -576,24 +576,7 @@ export class DayPicker extends Component {
         ref={el => (this.dayPicker = el)}
         lang={this.props.locale}
       >
-        <div
-          className={this.props.classNames.wrapper}
-          tabIndex={
-            this.props.canChangeMonth &&
-            typeof this.props.tabIndex !== 'undefined'
-              ? this.props.tabIndex
-              : -1
-          }
-          onKeyDown={this.handleKeyDown}
-          onFocus={this.props.onFocus}
-          onBlur={this.props.onBlur}
-        >
-          {this.renderNavbar()}
-          <div className={this.props.classNames.months}>
-            {this.renderMonths()}
-          </div>
-          {this.renderFooter()}
-        </div>
+        coucou
       </div>
     );
   }
